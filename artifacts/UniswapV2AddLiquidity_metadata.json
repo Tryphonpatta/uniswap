@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountA",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountB",
+						"type": "uint256"
+					}
+				],
+				"name": "addLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_tokenB",
+						"type": "address"
+					}
+				],
+				"name": "removeLiquidity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"UniswapV2AddLiquidity.sol": "UniswapV2AddLiquidity"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"UniswapV2AddLiquidity.sol": {
+			"keccak256": "0xa038cb6d640c576200713dc9e353b8a7942e97b4307e3b69c2e175219df441a0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c9e7701f2b4a19f5ccc2e2eb3e1069d694339a586fb010a0056c8445dfad40f",
+				"dweb:/ipfs/QmP9KkLt3A1crvuekXsnTXEGJB33kwXpKcfKHwfDfeW2kM"
+			]
+		}
+	},
+	"version": 1
+}
